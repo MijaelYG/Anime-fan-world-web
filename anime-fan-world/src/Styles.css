@@ -1,0 +1,15 @@
+:root{
+    --primary-color: rgb(0, 162, 255);
+    --secondary-color: rgb(162, 0, 255);
+    --gradient-color-header: linear-gradient(270deg,rgb(35, 156, 255) 30%,
+    rgb(119, 0, 255));
+    --gradient-color-nav: linear-gradient(rgb(35, 156, 255),
+            rgb(28, 97, 202));
+    --color-position-btn-banner-on: rgb(160, 160, 160);
+    --color-position-btn-banner-off: rgb(49, 49, 49);
+    --color-text-title: linear-gradient(90deg, rgb(0, 255, 255)10%, rgb(0, 110, 255) 50%, rgb(247, 0, 255)90%);
+}
+@font-face {
+    font-family: Noto Sans JP;
+    src: url(./assets/fonts/NotoSansJP.ttf);
+}

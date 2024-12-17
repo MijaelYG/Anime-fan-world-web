@@ -1,0 +1,11 @@
+.app{
+  height: auto;
+  width: auto;
+  padding-left: 100px;
+  padding-right: 0px;
+}
+
+.applogin{
+  height: 100vh;
+  width: auto;
+}
