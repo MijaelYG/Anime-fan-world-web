@@ -4,7 +4,7 @@ import styles from "./Register.module.css";
 import Logo from "../../assets/img/IconoAFW.webp";
 import IconUser from "../../assets/Icons/IconUser";
 import IconLastName from "../../assets/Icons/IconLastName";
-import IconNinja from "../../assets/Icons/Iconninja";
+import IconNinja from "../../assets/Icons/IconNinja";
 import IconEmail from "../../assets/Icons/IconEmail";
 import IconPassword from "../../assets/Icons/IconPassword";
 import IconPasswordOpen from "../../assets/Icons/IconPasswordOpen";
