@@ -34,10 +34,10 @@ public class LoginServiceImpl implements LoginService {
             Optional<Usuario> usuarioE = loginRepository.LoginVerification(UsuarioV, PasswordV);
             if (usuarioE.isPresent()) {
                 loginUsuarioDTO = mapearLoginDTO(usuarioE.get());
-                if (usuarioE.get().getRol().getId() == 2) {
+                if (usuarioE.get().getRol().getId() == 1) {
                     loginUsuarioDTO.setMessage("ANIMEFW2024_TOKENAUTHAFW_USER");
                     return loginUsuarioDTO;
-                } else if(usuarioE.get().getRol().getId() == 1){
+                } else if(usuarioE.get().getRol().getId() == 2){
                     loginUsuarioDTO.setMessage("ANIMEFW2024_TOKENAUTHAFW_ADMIN_ANIMEFW170502");
                     return loginUsuarioDTO;
                 }else{
